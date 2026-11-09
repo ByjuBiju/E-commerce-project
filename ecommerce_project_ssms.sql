@@ -1,9 +1,3 @@
-/*
-E-commerce SQL Server project
-Column naming style: Customer_Id, CustomerName, RegistrationDate, etc.
-Run the complete script in SSMS with F5.
-This recreates the five tables and reloads the fictional sample data.
-*/
 IF DB_ID(N'ecommerce_db') IS NULL
 BEGIN
     CREATE DATABASE ecommerce_db;
